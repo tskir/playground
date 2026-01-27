@@ -30,13 +30,13 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, '*.instagram.com')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
-    if (shExpMatch(host, '*.rutracker.org')) {
+    if (shExpMatch(host, 'rutracker.org')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
     if (shExpMatch(host, '*.fbcdn.net')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
-    if (shExpMatch(host, '*.rutracker.net')) {
+    if (shExpMatch(host, 'rutracker.net')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
     if (shExpMatch(host, '*.youtube.com')) {
