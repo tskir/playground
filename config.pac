@@ -54,5 +54,8 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, 'static.flibusta.is')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
+    if (shExpMatch(host, 'web.budgetbakers.com')) {
+        return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
+    }
     return profiles['direct'](url, host);
 }
