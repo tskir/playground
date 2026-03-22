@@ -45,6 +45,9 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, '*.googlevideo.com')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
+    if (shExpMatch(host, '*.ytimg.com')) {
+        return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
+    }
     if (shExpMatch(host, '*.facebook.com')) {
         return profiles['bbf6e493-0871-4234-8a31-96384aaf9cdc'](url, host);
     }
